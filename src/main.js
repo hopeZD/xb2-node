@@ -1,4 +1,2 @@
-const greeting = 'hello ~';
+const greeting = '你好';
 console.log(greeting);
-lsof - i tcp: 1080
-kill id
