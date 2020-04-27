@@ -1,0 +1,20 @@
+{
+  "name": "xb2-node",
+  "version": "1.0.0",
+  "description": "开发之路",
+  "author": "zhengzuodi@gmail.com",
+  "scripts": {
+    "start:dev": "tsc-watch --onSuccess \"node dist/main.js\"",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@types/node": "^13.13.4",
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "prettier": "1.19.1",
+    "tsc-watch": "^4.2.3",
+    "typescript": "^3.8.3"
+  }
+}
